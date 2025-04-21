@@ -29,7 +29,7 @@ import webverseLogo from './assets/company_logo/webverse_logo.png';
 import agcLogo from './assets/company_logo/agc_logo.png';
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
+import glaLogo from './assets/education_logo/gla_logo.jpg';
 import bsaLogo from './assets/education_logo/bsa_logo.png';
 import vpsLogo from './assets/education_logo/vps_logo.png';
 
@@ -96,17 +96,17 @@ export const SkillsInfo = [
     {
       id: 0,
       img: webverseLogo,
-      role: "Front End Training",
-      company: "GOKBORU Technologies",
+      role: "Data Structures and Algorithms",
+      company: "GeeksforGeeks ",
       date: "June 2024 - Augest 2024",
-      desc: "Participated in a comprehensive training program focused on front-end development, covering essential technologies such as HTML, CSS, JavaScript, React JS, TypeScript, Node JS, Tailwind CSS, MongoDB, Redux, and Next JS. Gained hands-on experience in building responsive web applications and collaborating with a team to deliver high-quality projects.",
+      desc: "Participated in a comprehensive training program focused on Data Structures and Algorithms, covering essential topics such as arrays, linked lists, stacks, queues, trees, graphs, recursion, dynamic programming, and sorting techniques. Gained hands-on experience in solving real-world coding problems and strengthened analytical and problem-solving skills through regular practice and contests.",
       skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "TypeScript",
-        "Tailwind CSS",
-        "Bootstrap",
+        "C++",
+        "Java",
+        "Python",
+        "Algorithms",
+        "Data Structures",
+        "Problem Solving",
       ],
     },
     {
@@ -134,27 +134,27 @@ export const SkillsInfo = [
       img: glaLogo,
       school: "Lovely Professional University",
       date: "since Aug 2022 ",
-      grade: "8.04 CGPA",
-      desc: "I am currently in the third year of my B.Tech in Computer Science and Engineering at Lovely Professional University (LPU). Throughout my academic journey, I have built a solid foundation in programming, software development, and core computer science concepts. I have studied subjects such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participate in workshops, hackathons, and technical events, which have helped me enhance my practical skills and broaden my knowledge. My experience at LPU has played a key role in shaping my technical abilities and preparing me for a successful career in the tech industry.",
+      grade: "8.43 CGPA",
+      desc: "I am currently in the third year of my B.Tech in Information Technology at Lovely Professional University (LPU). Throughout my academic journey, I have built a solid foundation in programming, software development, and core computer science concepts. I have studied subjects such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participate in workshops, hackathons, and technical events, which have helped me enhance my practical skills and broaden my knowledge. My experience at LPU has played a key role in shaping my technical abilities and preparing me for a successful career in the tech industry.",
       degree: "Bachelor of Technology - Computer Science and Engineering",
     },
     {
       id: 2,
       img: vpsLogo,
-      school: "Radha International Academy, Aligarh",
-      date: "Apr 2020 - June 2022",
-      grade: "87.4%",
-      desc: "I completed my class 12 education from Radha International Academy, Aligarh, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
+      school: "Kendriya Vidyalaya Maithon Dam, Dhanbad",
+      date: "Apr 2021 - June 2022",
+      // grade: "87.4%",
+      desc: "Completed Class 12 education from Kendriya Vidyalaya Maithon Dam, Dhanbad, under the CBSE board with a focus on Physics, Chemistry, Mathematics, and Biology (PCMB), building a strong academic foundation in both science and mathematics.",
+      degree: "CBSE(XII) - PCM with Biology",
     },
     {
       id: 3,
       img: bsaLogo,
-      school: "Prakash Convent Sr. Sec. School, Aligarh",
-      date: "Apr 2018 - March 2020",
-      grade: "84.4%",
-      desc: "I completed my class 10 education from Prakash Convent Sr. Sec. School, Aligarh, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X), Science with Computer Application",
+      school: "Kendriya Vidyalaya No.1, Kalpakkam",
+      date: "Apr 2019 - March 2020",
+      // grade: "84.4%",
+      desc: "Completed Class 10 education from Kendriya Vidyalaya No.1, Kalpakkam, under the CBSE board with a focus on Science and Computer, laying a strong foundation in scientific concepts and basic computing skills.",
+      degree: "CBSE(X) ",
     },
   ];
   
