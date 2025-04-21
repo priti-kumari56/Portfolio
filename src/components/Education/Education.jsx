@@ -58,11 +58,15 @@ const Education = () => {
                       {edu.school}
                     </h4>
                   </div>
-                  {/* Date at the bottom */}
+                  {/* Date at the
+                   bottom */}
                   <p className="text-sm text-gray-500 mt-2">{edu.date}</p>
                 </div>
               </div>
 
+              {index === 0 && (
+              <p className="mt-4 text-gray-400 font-bold">Grade: {edu.grade}</p>
+              )}
               {/* <p className="mt-4 text-gray-400 font-bold">Grade: {edu.grade}</p> */}
               <p className="mt-4 text-gray-400">{edu.desc}</p>
             </div>
@@ -74,3 +78,32 @@ const Education = () => {
 };
 
 export default Education;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
